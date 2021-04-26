@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid {
+    position: relative;
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+.grid-item {
+    /* background-color: #fff; */
+    /* overflow: hidden; */
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avt {
+    border-radius: 65px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.new {
+    position: absolute;
+    top: 100px;
+    left: -20px
+}
+
+span {
+    position: absolute;
+    top: 100px;
+    color: white;
+    top: 25px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.avt.ocean {
+    background-color: white;
+    color: rgb(40, 0, 219);
+}
+
+.avt.forest {
+    background-color: white;
+    color: yellowgreen;
+}
+
+.avt.mountain {
+    background-color: rgb(47, 2, 77);
+    color: rgb(160, 0, 125);
+}
+
+.card-img {
+    /* display: block; */
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.sub-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 3px;
+    top: 40px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+.card-content-header {
+    color: rgba(109, 97, 97, 0.87);
+    margin-bottom: 1.5rem;
+}
+
+.header-text {
+    font-size: 25px;
+    display: block;
+}
+
+.header-text-small {
+    font-size: 12px;
+}
+
+.bg-grey {
+    background-color: rgb(232, 232, 232);
+    /* margin-bottom: 3px; */
+    padding: 12px;
+}
+
+.bg-white {
+    background-color: #fff;
+    padding: 12px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(64, 2, 88);
+    color: palevioletred;
+}
+
+.button1 {
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+.button2 {
+    background-color: white;
+    color: rgb(51, 35, 201);
+    border: 2px solid;
+}
+
+.button3 {
+    background-color: white;
+    color: chartreuse;
+    border: 2px solid chartreuse;
+}
